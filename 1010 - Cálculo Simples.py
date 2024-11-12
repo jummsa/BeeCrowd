@@ -1,0 +1,15 @@
+CODIGO1, NUMERO1, VALOR1 = input().split()
+CODIGO1 = int(CODIGO1)
+NUMERO1 = int(NUMERO1)
+VALOR1 = float(VALOR1)
+
+CODIGO2, NUMERO2, VALOR2 = input().split()
+CODIGO2 = int(CODIGO2)
+NUMERO2 = int(NUMERO2)
+VALOR2 = float(VALOR2)
+
+
+TOTAL = (NUMERO1 * VALOR1) + (NUMERO2 * VALOR2)
+
+
+print(f'VALOR A PAGAR: R$ {TOTAL:.2f}')
