@@ -1,0 +1,6 @@
+NUMBER = int(input())
+HT = int(input())
+V = float(input())
+SALARY = (HT * V)
+print(f'NUMBER = {NUMBER:.0f}')
+print(f'SALARY = U$ {SALARY:.2f}')
